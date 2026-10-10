@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IT student portfolio showcasing software projects, technical skills, and tech community leadership.">
+    <title>My Portfolio | IT Student & Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#home" class="logo">&lt;Dev/&gt;</a>
+
+        <button class="menu-toggle" id="menu-toggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#leadership">Leadership</a>
+            <a href="#contact" class="nav-contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero section">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY DIGITAL SPACE</p>
+
+                <h1>Hi, I'm <span class="accent">Miriam Njoroge.</span></h1>
+
+                <h2>IT Student & Aspiring Software Developer</h2>
+
+                <p class="hero-description">
+                    I am passionate about technology, software development,
+                    and building practical solutions to real-world problems.
+                    I am learning, building, and growing one project at a time.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button primary">
+                        Explore My Projects
+                    </a>
+                    <a href="#contact" class="button secondary">
+                        Get In Touch
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/miriamwanjiku314-glitch"
+                       target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/in/Miriam Wanjiku/"
+                       target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <div class="code-card" aria-label="Developer introduction">
+                <div class="code-header">
+                    <span></span><span></span><span></span>
+                    <p>developer.js</p>
+                </div>
+                <pre><code><span class="code-purple">const</span> developer = {
+  role: <span class="code-green">"IT Student"</span>,
+  interests: [
+    <span class="code-green">"Software Development"</span>,
+    <span class="code-green">"AI & Technology"</span>,
+    <span class="code-green">"Problem Solving"</span>
+  ],
+  mindset: <span class="code-green">"Always learning"</span>,
+  available: <span class="code-purple">true</span>
+};
+
+<span class="code-comment">// Building something meaningful.</span></code></pre>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h2 class="section-title">About <span class="accent">Me</span></h2>
+
+            <div class="about-content">
+                <p>
+                    I am an Information Technology student at Masinde Muliro
+                    University of Science and Technology, developing my
+                    skills in software engineering, databases, networking,
+                    and emerging technologies.
+                </p>
+                <p>
+                    I enjoy exploring how technology can solve practical
+                    challenges. Through personal projects and campus tech
+                    communities, I am working to strengthen my programming,
+                    collaboration, and problem-solving skills.
+                </p>
+                <p>
+                    My goal is to grow into a capable developer who builds
+                    useful, reliable, and accessible technology solutions.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <p class="eyebrow">MY TECH TOOLKIT</p>
+            <h2 class="section-title">Skills & <span class="accent">Technologies</span></h2>
+            <p class="section-intro">
+                Technologies I have worked with or am currently learning.
+            </p>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>Programming</h3>
+                    <div class="tags">
+                        <span>Java</span><span>Go</span>
+                        <span>Python</span><span>JavaScript</span>
+                        <span>C++</span>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Web Development</h3>
+                    <div class="tags">
+                        <span>HTML</span><span>CSS</span>
+                        <span>Node.js</span><span>Express.js</span>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Databases & Tools</h3>
+                    <div class="tags">
+                        <span>MySQL</span><span>PostgreSQL</span>
+                        <span>Git</span><span>GitHub</span>
+                        <span>VS Code</span>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Exploring</h3>
+                    <div class="tags">
+                        <span>Artificial Intelligence</span>
+                        <span>Internet of Things</span>
+                        <span>Cybersecurity</span>
+                        <span>Networking</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <p class="eyebrow">WHAT I'M BUILDING</p>
+            <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+            <p class="section-intro">
+                A selection of projects and technical work from my learning journey.
+            </p>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <p class="project-number">PROJECT 01</p>
+                    <h3>AI Support Analyzer</h3>
+                    <p>
+                        A Python learning project that categorizes support
+                        messages into network, account, billing, or unknown
+                        categories using keyword rules.
+                    </p>
+                    <div class="tags">
+                        <span>Python</span><span>Functions</span>
+                        <span>Rule-Based Logic</span>
+                    </div>
+                    <a class="project-link"
+                       href="https://github.com/miriamwanjiku314-glitch/javascript-validation"
+                       target="_blank" rel="noopener noreferrer">
+                        View Project ↗
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <p class="project-number">PROJECT 02</p>
+                    <h3>BANK LOG IN SYSTEM</h3>
+                    <p>
+                        A Java-based bank management application project featuring
+                        user interface screens for login,registration,account creation
+                        ,dashboard navigation,transaction management,and tabular data
+                        display.The project uses FXML files to define the 
+                        applications's user interface.
+                    </p>
+                    <div class="tags">
+                        <span>Java</span><span>JavaFX(FXML)</span>
+                        <span>Maven</span><span>GitHub</span>
+                    </div>
+                    <a class="project-link"
+                       href="https://github.com/miriamwanjiku314-glitch/bank"
+                       target="_blank" rel="noopener noreferrer">
+                        View Project ↗
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <p class="project-number">PROJECT 03</p>
+                    <h3>Healthcare Referral Support</h3>
+                    <p>
+                        An academic project proposal for helping healthcare
+                        facilities identify suitable referral destinations
+                        based on available services, equipment, and capabilities.
+                    </p>
+                    <div class="tags">
+                        <span>System Analysis</span><span>Agile</span>
+                        <span>Healthcare Technology</span>
+                    </div>
+                    <a class="project-link" href="#contact">
+                        Discuss This Project ↗
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section id="leadership" class="section">
+            <p class="eyebrow">BEYOND THE CODE</p>
+            <h2 class="section-title">Community & <span class="accent">Leadership</span></h2>
+
+            <article class="leadership-card">
+                <p class="project-number">TECH COMMUNITY</p>
+                <h3>GDG on Campus — MMUST</h3>
+                <p>
+                    Contributing to a campus tech community focused on
+                    learning, collaboration, knowledge sharing, and helping
+                    students explore technology together.
+                </p>
+                <p>
+                    I value creating opportunities for students to learn
+                    from one another, develop practical skills, and grow
+                    their confidence in technology.
+                </p>
+            </article>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2 class="section-title">
+                Have an idea? <span class="accent">Let's talk.</span>
+            </h2>
+            <p class="section-intro">
+                I welcome opportunities to learn, collaborate on projects,
+                and connect with other people in tech.
+            </p>
+
+            <a class="button primary"
+               href="mailto:miriamwanjiku314@gmail.com">
+                Email Me ↗
+            </a>
+
+            <div class="social-links contact-links">
+                <a href="https://github.com/miriamwanjiku314-glitch"
+                   target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                <a href="https://www.linkedin.com/in//Miriam Wanjiku/"
+                   target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Njoroge Miriam. Built with HTML, CSS & JavaScript.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+</body>
+</html>
